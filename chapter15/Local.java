@@ -9,5 +9,7 @@ public class Local{
     // LocalDateTimeとZonedDateTimeの相互変換
     ZonedDateTime z1 = l2.atZone(ZoneId.of("Europe/London"));
     LocalDateTime l3 = z1.toLocalDateTime();
+
+    System.out.println(l3);
   }
 }
